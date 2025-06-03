@@ -19,3 +19,7 @@ yellowCar.repaint("Růžová");
 yellowCar.logCarProperties();
 secondYellowCar.logCarProperties();
 dieselCar.logCarProperties();
+
+const electricCarColor = electricCar.getColor();
+console.log(`Barva Blesku: ${electricCarColor}`);
+console.log(`Barva Blesku bez proměnné ${electricCar.getColor()}`);

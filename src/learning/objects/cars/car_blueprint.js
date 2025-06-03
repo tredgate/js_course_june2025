@@ -31,4 +31,8 @@ export class CarBlueprint {
     console.log(`Přebarvuji ${this.carName} z ${this.color} na ${newColor}`);
     this.color = newColor;
   }
+
+  getColor() {
+    return this.color;
+  }
 }
